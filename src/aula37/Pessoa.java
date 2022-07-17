@@ -1,0 +1,52 @@
+package aula37;
+
+public class Pessoa {
+	
+	private String nome;
+	private String endereco;
+	private String telefone;
+	private String telefoneCelular;
+	private String cpf;
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public String getEndereco() {
+		return endereco;
+	}
+	
+	public String getTelefone() {
+		return telefone;
+	}
+	
+	public String getTelefoneCelular() {
+		return telefoneCelular;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	
+	public void setTelefoneCelular(String telefoneCelular) {
+		this.telefoneCelular = telefoneCelular;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+}
