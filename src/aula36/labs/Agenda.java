@@ -15,8 +15,8 @@ public class Agenda {
 	
 	public Agenda() {
 		super();
-
 	}
+	
 	public Agenda(String nome) {
 		super();
 		this.nome = nome;
